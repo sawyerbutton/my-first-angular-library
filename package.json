@@ -11,7 +11,7 @@
     "copy-license": "copy \\LICENSE .\\/dist\\/example-my-ng-lib",
     "copy-readme": "copy \\README.md .\\/dist\\/example-my-ng-lib",
     "copy-files": "npm run copy-license && npm run copy-readme",
-    "build_lib": "ng build example-my-ng-lib",
+    "build_lib": "ng build example-my-ng-lib --prod",
     "npm_pack": "cd dist/example-my-ng-lib && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },

@@ -133,6 +133,11 @@
           "options": {
             "tsConfig": "projects/example-my-ng-lib/tsconfig.lib.json",
             "project": "projects/example-my-ng-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/example-my-ng-lib/ng-package.prod.json"
+            }
           }
         },
         "test": {
